@@ -2,11 +2,11 @@
 ## Compilación
 El estilo está basado en la plantilla iOS de Ionic, por lo que para verse adecuadamente se requiere compilar como:
 ```sh
-$ ionic serve -t ios
+$ ionic serve -lab
 ```
 Si se tiene problemas con la visualización asegurarse que la URL sea similar a:
 ```sh
-http://localhost:8100/?ionicplatform=ios
+http://localhost:8200
 ```
 ## Fuentes
 Una vez compilado se requiere copiar manualmente el contenido de la carpeta `ccs-fonts/` dentro de `www/assets/fonts/`, las definiciones tipográficas se encuentran al inicio de: `src/app/app.scss`.
